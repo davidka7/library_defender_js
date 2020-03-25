@@ -1,0 +1,40 @@
+body {
+    background: rgb(155, 123, 123);
+     
+    text-align: center;
+    font-family: 'Bungee', cursive;
+  }
+  .fill {
+   background-color: aqua;
+   position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+
+  }
+    .empty {
+        display: inline-block;
+        height: 160px;
+        width: 160px;
+        margin: 10px;
+        border: 3px salmon solid;
+        background-color: aliceblue;
+        
+
+  }
+  .hold {
+border: solid lightblue 3px;
+  }
+  
+  .hovered {
+background: yellow;
+border-style: dashed;
+
+  }
+
+  .invisible {
+display: none;
+
+  }
