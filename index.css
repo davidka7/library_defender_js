@@ -84,3 +84,68 @@
     height: 10%;
     font-size: 115%;
 }
+body {
+    background: rgb(155, 123, 123);
+     
+    text-align: center;
+    font-family: 'Bungee', cursive;
+  }
+  .fill {
+      /*background-image: url("ezgif.com.gif");*/
+   background-color: blue;
+   position: relative;
+    height: 25px;
+    width: 25px;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+
+  }
+  
+  .rip {
+    background-image: url("drawing__1_.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+     /*background-image: "drawing__1_.png";*/
+     background-color: thistle;
+    width: 500px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 0px;
+    /*overflow: hidden;*/
+  }
+    .empty {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        margin: 0px;
+        border: 3px salmon solid;
+        /*background-color: aliceblue;*/
+        
+
+  }
+  .empt {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+    border: 3px rgb(255, 182, 174) solid;
+    /*background-color: aliceblue;*/
+    
+
+}
+  .hold {
+border: solid transparent 3px;
+  }
+  
+  .hovered {
+background: transparent;
+/*border-style: dashed;*/
+
+  }
+
+  .invisible {
+display: none;
+
+  }
